@@ -1,0 +1,29 @@
+:root {
+  --background-color: #f2efe3;
+  --text-color: #181d27;
+  --primary-color: #44af69;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.navbar-brand {
+  font-size: 200%;
+  color: var(--text-color);
+  transition: 0.5s ease-in;
+}
+
+.navbar-brand:hover {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-size: 110%;
+  font-weight: 500;
+  transition: 0.5s ease-in;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
