@@ -2,7 +2,7 @@
   --background-color: #f2efe3;
   --text-color: #181d27;
   --primary-color: #44af69;
-  --secondary-color: #fcab10;
+  --secondary-color: #de9102;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 .carousel-item {
   height: 100vh;
   min-height: 300px;
-  background: black;
+  background: #181d27;
   position: relative;
 }
 .carousel-item .container {
@@ -68,4 +68,16 @@ body {
   background-position: center;
   background-size: cover;
   opacity: 0.5;
+}
+
+.btn-primary {
+  background-size: 200%;
+  color: var(--background-color);
+  border: transparent;
+  background-image: linear-gradient(to left, #c4e538, #009432, #c4e538);
+  transition: 0.6s;
+}
+
+.btn-primary:hover {
+  background-position: right;
 }
