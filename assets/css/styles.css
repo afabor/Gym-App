@@ -74,7 +74,7 @@ body {
   background-size: 200%;
   color: var(--background-color);
   border: transparent;
-  background-image: linear-gradient(to left, #c4e538, #009432, #c4e538);
+  background-image: linear-gradient(to left, #44af69, #009432, #44af69);
   transition: 0.6s;
 }
 
@@ -98,4 +98,10 @@ body {
 .about .card i {
   font-size: 30px;
   color: var(--secondary-color);
+}
+
+#team {
+  height: 100vh;
+  min-height: 300px;
+  padding: 80px;
 }
