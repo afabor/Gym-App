@@ -81,3 +81,21 @@ body {
 .btn-primary:hover {
   background-position: right;
 }
+
+#about {
+  height: 100vh;
+  min-height: 300px;
+  padding: 80px;
+}
+
+.section-header {
+  color: var(--text-color);
+}
+.section-header span {
+  color: var(--primary-color);
+}
+
+.about .card i {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
