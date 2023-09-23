@@ -101,7 +101,6 @@ body {
 }
 
 #team {
-  height: 100vh;
   min-height: 300px;
   padding: 80px;
 }
@@ -122,4 +121,17 @@ body {
 
 .team .card-title {
   color: var(--primary-color);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    margin-bottom: 30px;
+  }
 }
